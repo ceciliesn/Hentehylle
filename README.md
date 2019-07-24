@@ -1,7 +1,8 @@
 # Hentehylle
-Gruppeprosjekt i emnet IN1060 Bruksorientert design ved Universitetet i Oslo. (https://www.uio.no/studier/emner/matnat/ifi/IN1060/)
+Gruppeprosjekt i emnet [IN1060 Bruksorientert design ved Universitetet i Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN1060/), våren 2018.  
 
-Vår oppgave var å planlegge og gjennomføre et prosjekt hvor vi designet og bygget en digital prototype ved bruk av Arduino, for og med en valgt brukergruppe. Vi valgte folkebibliotek som undersøkelsesdomene og utviklet en prototype for folkebibliotekenes eksisterende hentehylleløsning. 
+
+Vår oppgave var å planlegge og gjennomføre et prosjekt hvor vi designet og bygget en digital prototype ved bruk av Arduino, for og med en valgt brukergruppe. Vi valgte folkebibliotek som undersøkelsesdomene og utviklet en prototype for folkebibliotekenes eksisterende hentehylleløsning. Klikk [her](https://www.uio.no/studier/emner/matnat/ifi/IN1060/v18/prosjekter-2018/spade/index.html) for å lese mer om prosjektet vårt.
 
 Prototypens utforming er en standard hylle utstyrt med to stk RFID-lesere. Den ene RFID-leseren er integrert i bokhyllens skillevegg og leser bøkenes ID, mens den andre RFID-leseren er en kortleser som leser inn RFID-kortenes ID. Kortleseren er utstyrt med en NeoPixel Stick 8 som blinker grønt hvis boken er i hyllen og rødt hvis den ikke er der. Hvis boken er i hyllen og det riktige lånekortet registreres, lyser en Luxorparts Adresserbar RGB LED-list opp hvilken hylleseksjon boken befinner seg. 
 
