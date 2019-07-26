@@ -1,5 +1,5 @@
 # Hentehylle
-Gruppeprosjekt i emnet [IN1060 Bruksorientert design ved Universitetet i Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN1060/), våren 2018.  
+Gruppeprosjekt i emnet [IN1060 Bruksorientert design ved Universitetet i Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN1060/), våren 2018 - karakter: A.
 
 
 Vår oppgave var å planlegge og gjennomføre et prosjekt hvor vi designet og bygget en digital prototype ved bruk av Arduino, for og med en valgt brukergruppe. Vi valgte folkebibliotek som undersøkelsesdomene og utviklet en prototype for folkebibliotekenes eksisterende hentehylleløsning. Klikk [her](https://www.uio.no/studier/emner/matnat/ifi/IN1060/v18/prosjekter-2018/spade/index.html) for å lese mer om prosjektet vårt.
