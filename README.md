@@ -1,20 +1,29 @@
 # Hentehylle
-Gruppeprosjekt i emnet [IN1060 Bruksorientert design ved Universitetet i Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN1060/), våren 2018 - karakter: A.
+Group project in the course [IN1060 Use Oriented Design at the Department of Informatics, University of Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN1060/), spring 2018 - grade: A.
 
+Our task was to plan, implement and execute a project in which we
+          designed and built a tangible digital prototype using Arduino and
+          without the use of a screen, for a selected user group. We chose
+          public libraries as the research domain and developed a digital
+          prototype for the public libraries' existing shelf solution for
+          retrieving reserved books. This involved to plan and conduct several
+          types of usage context studies and to identify and formulate design
+          requirements based on our own use studies. Furthermore we had to
+          collaborate with users on design proposals, prototypes and evaluation
+          throughout the entire design process, as well as characterize and
+          evaluate what and how users have influenced in the design result. Click [here](https://www.uio.no/studier/emner/matnat/ifi/IN1060/v18/prosjekter-2018/spade/index.html) to read more about our project.
 
-Vår oppgave var å planlegge og gjennomføre et prosjekt hvor vi designet og bygget en digital prototype ved bruk av Arduino, for og med en valgt brukergruppe. Vi valgte folkebibliotek som undersøkelsesdomene og utviklet en prototype for folkebibliotekenes eksisterende hentehylleløsning. Klikk [her](https://www.uio.no/studier/emner/matnat/ifi/IN1060/v18/prosjekter-2018/spade/index.html) for å lese mer om prosjektet vårt.
+The prototype design is a standard shelf equipped with two RFID readers. One RFID reader is integrated into the bookshelf and reads the ID of the books, while the other RFID reader is integrated into a card reader that reads the RFID card ID. The card reader is equipped with a light which flashes green if the book is in the shelf and red if not. If the book is in the shelf and the correct loan card is registered, the shelf section where the book can be found will light up. 
 
-Prototypens utforming er en standard hylle utstyrt med to stk RFID-lesere. Den ene RFID-leseren er integrert i bokhyllens skillevegg og leser bøkenes ID, mens den andre RFID-leseren er en kortleser som leser inn RFID-kortenes ID. Kortleseren er utstyrt med en NeoPixel Stick 8 som blinker grønt hvis boken er i hyllen og rødt hvis den ikke er der. Hvis boken er i hyllen og det riktige lånekortet registreres, lyser en Luxorparts Adresserbar RGB LED-list opp hvilken hylleseksjon boken befinner seg. 
+Main components: 
+- 3 x Arduino Uno. 
+- 2 x MFRC522 RFID-readers. 
+- 2 x RFID-cards. 
+- 2 x powerbank. 
+- Luxorparts Adressable RGB LED-list 5 m.
+- NeoPixel Stick 8 - 8X 5050 RGB LED
+- 2 x Electrolytic Capacitor.
+- 2 x 220Ω resistor for RGB LED.
 
-Hovedkomponenter: 
-- 3 stk Arduino Uno. 
-- 2 stk MFRC522 RFID-lesere. 
-- 2 stk RFID-kort. 
-- 2 stk powerbank. 
-- Luxorparts Adresserbar RGB LED-list 5 m.
-- NeoPixel Stick 8 - 8X 5050 RGB LED  adresserbar-rgb-led-stav
-- 2 stk Electrolytic Capacitor.
-- 2 stk 220Ω resistor til RGB LED-stripe.
-
-Koden er skrevet i Arduino sitt eget programmeringsspråk.
+The code is written in the Arduino programming language.
 
